@@ -19,13 +19,11 @@ Scenario -1: Validate eaglebot API response code 200 along with objects returned
 
 Execution guidelines:
 The attached project folder can be opened using IDE of your choice. 
-1.	All the tests can be executed in terminal using below command.
-   npx cucumber-js --tags "@regression" --format html:cucumber-report.html
 
-2.	The negative scenarios can be tested using below command.
-   npx cucumber-js --tags "@negative_validation" --format html:cucumber-report.html
+1.	All the tests can be executed in terminal using command : npx cucumber-js --tags "@regression" --format html:cucumber-report.html
 
-3.	The positive scenarios can be tested using below command.
-   npx cucumber-js --tags "@positive_validation" --format html:cucumber-report.html
+2.	The negative scenarios can be tested using command : npx cucumber-js --tags "@negative_validation" --format html:cucumber-report.html
+
+3.	The positive scenarios can be tested using command : npx cucumber-js --tags "@positive_validation" --format html:cucumber-report.html
 
 
