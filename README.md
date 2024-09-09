@@ -32,6 +32,7 @@ Step 2: Installing the dependencies
         Upon successful installation, a new node_module folder will appear in the project directory. 
         
 Step 3: Running the test cases
+
        1.	All the tests can be executed in terminal using command : npx cucumber-js --tags "@regression" --format html:cucumber-report.html
 
        2.	The negative scenarios can be tested using command : npx cucumber-js --tags "@negative_validation" --format html:cucumber-report.html
