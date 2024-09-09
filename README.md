@@ -13,17 +13,32 @@ Scenario -2: Validate eaglebot API response code 500-SERVER ERROR when an invali
 There are 2 scenarios
 Scenario -1: Validate eaglebot API response code 200 along with objects returned when query parameter is not provided.
  Scenario -2: Validate eaglebot API response code 200 along with objects returned when query parameter is provided.
-3.	The generated html report can be referred as cucumber-report.html 
+
 
 
 
 Execution guidelines:
-The attached project folder can be opened using IDE of your choice. 
 
-1.	All the tests can be executed in terminal using command : npx cucumber-js --tags "@regression" --format html:cucumber-report.html
+Prerequisite
+Node.js(latest version)
+npm (latest version)
 
-2.	The negative scenarios can be tested using command : npx cucumber-js --tags "@negative_validation" --format html:cucumber-report.html
+Step 1: Cloning the project
+        clone the repository in VS Code and open the cloned folder. 
+        git clone <repository>
+        
+Step 2: Installing the dependencies 
+        npm install
+        Upon successful installation, a new node_module folder will appear in the project directory. 
+        
+Step 3: Running the test cases
+       1.	All the tests can be executed in terminal using command : npx cucumber-js --tags "@regression" --format html:cucumber-report.html
 
-3.	The positive scenarios can be tested using command : npx cucumber-js --tags "@positive_validation" --format html:cucumber-report.html
+       2.	The negative scenarios can be tested using command : npx cucumber-js --tags "@negative_validation" --format html:cucumber-report.html
+
+       3.	The positive scenarios can be tested using command : npx cucumber-js --tags "@positive_validation" --format html:cucumber-report.html
+       
+Step 4: Test reports and evidences.
+        The generated html report can be referred as cucumber-report.html within project 
 
 
